@@ -61,7 +61,7 @@ class PlayerGestureHelper(
 
     private var lastScaleEvent: Long = 0
 
-    private var playbackSpeedIncrease: Float = 2f
+    private var playbackSpeedIncrease: Float = 5f
     private var lastPlaybackSpeed: Float = 0f
 
     private val screenWidth = Resources.getSystem().displayMetrics.widthPixels
